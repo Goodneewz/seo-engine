@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="google-site-verification" content="MePQLBrTpjNOagzNaaLOHMiqZ88nr_OdoUDaQJxGjqc" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Favour — SEO Growth Engineer</title>
+<meta name="description" content="I rebuild broken code, rewrite dead content, and ship programmatic pages that turn search traffic into revenue.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<meta name="google-site-verification" content="MePQLBrTpjNOagzNaaLOHMiqZ88nr_OdoUDaQJxGjqc" />
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">favour<span class="dot">.</span>seo</a>
+    <nav class="nav-links">
+      <a href="#engine">Engine</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+    </nav>
+    <a href="#audit" class="btn btn-nav">Get a free 10-min page audit</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <p class="eyebrow">// SEO GROWTH ENGINEER</p>
+    <h1 class="hero-headline">CREATE VISIBILITY<br>FOR YOUR WEBSITE.</h1>
+    <p class="hero-sub">Help your businesses outrank, dominate the search engine result pages and drive measurable revenue.</p>
+    <a href="#audit" class="btn btn-primary btn-pulse">
+      <span class="btn-icon">▲</span> Get a free 10-min page audit
+    </a>
+
+    <div class="scroll-cue" aria-hidden="true">
+      <span>rendering visibility</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============ LIVE RANK ENGINE ============ -->
+  <section class="engine-section" id="engine">
+    <p class="section-eyebrow">// LIVE DEMO</p>
+    <h2 class="section-title">The Live Rank Engine.</h2>
+    <p class="section-sub">Pick a market. Watch the engine pull the technical read in real time.</p>
+
+    <div class="city-pills" id="cityPills" role="tablist" aria-label="Select a market">
+      <button class="pill is-active" data-city="austin" role="tab" aria-selected="true">Austin</button>
+      <button class="pill" data-city="london" role="tab" aria-selected="false">London</button>
+      <button class="pill" data-city="berlin" role="tab" aria-selected="false">Berlin</button>
+      <button class="pill" data-city="lagos" role="tab" aria-selected="false">Lagos</button>
+      <button class="pill" data-city="newyork" role="tab" aria-selected="false">New York</button>
+    </div>
+
+    <div class="terminal" id="terminal">
+      <div class="terminal-chrome">
+        <div class="terminal-dots"><span></span><span></span><span></span></div>
+        <div class="url-bar" id="urlBar">favour.seo/engine/austin</div>
+        <div class="terminal-status"><span class="live-dot"></span>LIVE</div>
+      </div>
+
+      <div class="terminal-body">
+        <div class="metric-row" id="metricRow">
+          <div class="metric-pill metric-good">Core Web Vitals: <strong>99%</strong> ⚡</div>
+          <div class="metric-pill metric-good">Index Status: <strong>Instant Check</strong> ✅</div>
+          <div class="metric-pill metric-bad">AI Content Fluff: <strong>0%</strong> ❌</div>
+        </div>
+
+        <div class="market-readout" id="marketReadout">
+          <span class="readout-label">$ market_read --local</span>
+          <p id="marketText"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TACTICAL VALUE CARDS ============ -->
+  <section class="bento-section" id="work">
+    <p class="section-eyebrow">// HOW THE WORK GETS DONE</p>
+    <h2 class="section-title">Not strategy decks. Shipped code.</h2>
+
+    <div class="bento-grid">
+      <article class="bento-card">
+        <div class="bento-icon">⌁</div>
+        <h3>Code Remodeling</h3>
+        <p>Shaving off website bloat, fixing broken hierarchy tags, and optimizing site speed.</p>
+      </article>
+
+      <article class="bento-card">
+        <div class="bento-icon">◈</div>
+        <h3>Data-Driven Iteration</h3>
+        <p>Turning dry, generic text into high-intent, human-grade search assets.</p>
+      </article>
+
+      <article class="bento-card">
+        <div class="bento-icon">⟁</div>
+        <h3>Programmatic Engines</h3>
+        <p>Shipping hundreds of local-targeted search capture pages without writing messy syntax by hand.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="final-cta" id="audit">
+    <h2 class="section-title">Your rankings aren't stuck. They're unoptimized.</h2>
+    <p class="section-sub">10 minutes on your site. Real technical findings, not a sales pitch.</p>
+    <a href="mailto:hello@favour.seo" class="btn btn-primary btn-pulse btn-lg">
+      <span class="btn-icon">▲</span> Get a free 10-min page audit
+    </a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>favour<span class="dot">.</span>seo — built for organic traffic, not applause.</p>
+</footer>
+
+<script>
+  const cityData = {
+    austin: {
+      slug: "austin",
+      text: "Austin's SERPs are a tech-founder pileup — every SaaS and dev-tool page fighting for the same ten slots. The lever here isn't more content, it's structured data and page speed. I'm shipping schema that gets you into AI Overviews before your competitors even know they're being tested."
+    },
+    london: {
+      slug: "london",
+      text: "London search is enterprise-dense and trust-gated — Google weighs authority signals harder here than almost any other market. I'm restructuring internal linking and E-E-A-T signals so a 15-year-old site actually outranks a funded competitor's brand-new one."
+    },
+    berlin: {
+      slug: "berlin",
+      text: "Berlin's e-commerce market runs on DACH-specific intent and strict schema hygiene — half the local competition is still shipping unindexed JS-rendered product pages. I'm fixing render-blocking scripts and shipping GDPR-clean structured data that actually gets crawled."
+    },
+    lagos: {
+      slug: "lagos",
+      text: "Lagos is mobile-first and bandwidth-starved — a 4-second load time is a dead page here. I'm stripping unused JS, compressing above-the-fold assets, and building for 3G realities so your site ranks on the device your actual customers are holding."
+    },
+    newyork: {
+      slug: "new-york",
+      text: "New York is the most saturated result page on the planet — every vertical is pay-to-play. The only way in is technical precision: sub-second TTFB, flawless crawl budget allocation, and content built for query intent instead of keyword stuffing."
+    }
+  };
+
+  const pills = document.querySelectorAll('.pill');
+  const urlBar = document.getElementById('urlBar');
+  const marketText = document.getElementById('marketText');
+  const terminal = document.getElementById('terminal');
+
+  function renderCity(key) {
+    const data = cityData[key];
+    urlBar.textContent = `favour.seo/engine/${data.slug}`;
+    terminal.classList.remove('is-updating');
+    void terminal.offsetWidth; // restart animation
+    terminal.classList.add('is-updating');
+    marketText.style.opacity = 0;
+    setTimeout(() => {
+      marketText.textContent = data.text;
+      marketText.style.opacity = 1;
+    }, 180);
+  }
+
+  pills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      pills.forEach(p => { p.classList.remove('is-active'); p.setAttribute('aria-selected','false'); });
+      pill.classList.add('is-active');
+      pill.setAttribute('aria-selected','true');
+      renderCity(pill.dataset.city);
+    });
+  });
+
+  renderCity('austin');
+</script>
+
+</body>
+</html>
